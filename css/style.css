@@ -192,6 +192,11 @@
   padding-right: 0px;
 }
 
+.action .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .action .form-right {
   padding-left: 5px;
 }
@@ -201,8 +206,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .action {
-    margin-top: 70px;
+  .byline {
+    margin-bottom: 0px;
   }
   .navbar-default .navbar-nav li .btn-white {
     margin: 7px 0 0 15px;
@@ -213,6 +218,12 @@
   .navbar-right {
     padding-right: 15px;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+  .headline {
+    font-size: 70px;
+    line-height: 1.04;  }
 }
 
 .carousel img {
