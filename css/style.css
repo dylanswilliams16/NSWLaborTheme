@@ -1,0 +1,279 @@
+@font-face {
+  font-family:'Gotham-Book';
+  src:url("https://principletools.com.au/fonts/Gotham-Book.otf"),
+  url("https://principletools.com.au/fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"),
+  url("https://principletools.com.au/fonts/Gotham-Book.ttf") format("truetype")
+}
+
+@font-face {
+  font-family:'Gotham-Bold';
+  src:url("https://principletools.com.au/fonts/Gotham-Bold.otf"),
+  url("https://principletools.com.au/fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+  url("https://principletools.com.au/fonts/Gotham-Bold.woff") format("woff"),
+  url("https://principletools.com.au/fonts/Gotham-Bold.ttf") format("truetype")
+}
+
+.master-top {
+  background: #fff;
+  padding-right: 0;
+  padding-left: 0;
+  min-height: 100%;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.navbar-brand img {
+  position: absolute;
+  z-index: 10;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+  padding-top: 2px;
+  padding-left: 70px;
+}
+
+.navbar-right {
+  padding-left: 0px;
+}
+
+.navbar-collapse {
+  padding-bottom: 15px;
+  border: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  border-top: 0px;
+}
+
+.navbar-default .navbar-nav li {
+  text-align: right;
+  font-family: "Gotham-Bold";
+}
+
+.navbar-default .navbar-nav li a {
+  color: rgba(1,70,129,100);
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: rgba(1,70,129,100);
+}
+
+.navbar-default .navbar-nav li a:focus {
+  color: rgba(1,70,129,100);
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgba(1,70,129,100);
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-nav li .btn-white {
+  background: rgba(1,70,129,100);
+  display: inline-block;
+  padding: 8px 12px 6px 12px;
+  margin: 7px 12px 0 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav li .btn-red {
+  background: rgba(198,0,29,100);
+  display: inline-block;
+  padding: 8px 12px 6px 12px;
+  margin: 7px 12px 0 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.home-top {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 25px;
+  background: rgba(1,70,129,100);
+}
+
+.headline {
+  color: #fff;
+  font-family: "Gotham-Bold";
+  font-size: 60px;
+  letter-spacing: -2px;
+}
+
+.byline {
+  color: #fff;
+  font-family: "Gotham-Book";
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.action {
+  padding-bottom: 50px;
+}
+
+.form-group-lg .form-control {
+  margin-bottom: 10px;
+  color: rgba(1,70,129,100);
+  border: #fff;
+  border-radius: 3px;
+}
+
+.action .btn-primary {
+  background: rgb(0, 133, 196);
+  border-color: rgb(0, 133, 196);
+  font-family: "Gotham-Bold";
+}
+
+.action .col-xs-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.action .form-right {
+  padding-left: 5px;
+}
+
+.action .form-left {
+  padding-right: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .action {
+    margin-top: 60px;
+  }
+  .navbar-default .navbar-nav li .btn-white {
+    margin: 7px 0 0 15px;
+  }
+  .navbar-default .navbar-nav li .btn-red {
+    margin: 7px 0 0 15px;
+  }
+  .navbar-default .navbar-nav li a {
+    color: rgba(1,70,129,100);
+  }
+  .navbar-default .navbar-nav li a:hover {
+    color: rgba(1,70,129,100);
+  }
+  .navbar-default .navbar-nav li a:focus {
+    color: rgba(1,70,129,100);
+  }
+  .navbar-default .navbar-nav li .btn-white {
+    background: rgba(1,70,129,100);
+    color: #fff;
+  }
+}
+
+.carousel img {
+  width: 100%;
+  max-height: 570px;
+  i
+}
+
+footer {
+  background: #28282a;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gotham-Book";
+  line-height: 19px;
+}
+
+footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer h2 {
+  font-family: "Gotham-Bold";
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer li {
+  margin-bottom: 17px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .auth {
+  background: #161616;
+  font-size: 9px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer img {
+  padding-top: 20px;
+  float: right;
+}
