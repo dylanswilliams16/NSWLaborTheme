@@ -147,7 +147,10 @@
 .home-top {
   margin-left: 0px;
   margin-right: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
   background: rgba(1,70,129,100);
 }
 
@@ -156,7 +159,7 @@
   font-family: "Gotham-Bold";
   font-size: 58px;
   letter-spacing: -2px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .byline {
@@ -206,6 +209,9 @@
   }
   .navbar-default .navbar-nav li .btn-red {
     margin: 7px 0 0 15px;
+  }
+  .navbar-right {
+    padding-right: 15px;
   }
 }
 
