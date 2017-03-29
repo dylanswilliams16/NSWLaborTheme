@@ -117,7 +117,7 @@
           user-select: none;
   background-image: none;
   border: 0px;
-  border-radius: 0px;
+  border-radius: 3px;
 }
 
 .navbar-default .navbar-nav li .btn-red {
@@ -141,7 +141,7 @@
           user-select: none;
   background-image: none;
   border: 0px;
-  border-radius: 0px;
+  border-radius: 3px;
 }
 
 .home-top {
