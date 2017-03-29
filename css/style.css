@@ -155,6 +155,7 @@
   font-family: "Gotham-Bold";
   font-size: 60px;
   letter-spacing: -2px;
+  margin-top: 40px;
 }
 
 .byline {
@@ -197,7 +198,7 @@
 
 @media only screen and (min-width: 768px) {
   .action {
-    margin-top: 60px;
+    margin-top: 70px;
   }
   .navbar-default .navbar-nav li .btn-white {
     margin: 7px 0 0 15px;
