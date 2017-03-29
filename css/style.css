@@ -17,6 +17,7 @@
   background: #fff;
   padding-right: 0;
   padding-left: 0;
+  padding-top: 50px;
   min-height: 100%;
 }
 
@@ -146,14 +147,14 @@
 .home-top {
   margin-left: 0px;
   margin-right: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
   background: rgba(1,70,129,100);
 }
 
 .headline {
   color: #fff;
   font-family: "Gotham-Bold";
-  font-size: 55px;
+  font-size: 58px;
   letter-spacing: -2px;
   margin-top: 40px;
 }
@@ -205,19 +206,6 @@
   }
   .navbar-default .navbar-nav li .btn-red {
     margin: 7px 0 0 15px;
-  }
-  .navbar-default .navbar-nav li a {
-    color: rgba(1,70,129,100);
-  }
-  .navbar-default .navbar-nav li a:hover {
-    color: rgba(1,70,129,100);
-  }
-  .navbar-default .navbar-nav li a:focus {
-    color: rgba(1,70,129,100);
-  }
-  .navbar-default .navbar-nav li .btn-white {
-    background: rgba(1,70,129,100);
-    color: #fff;
   }
 }
 
